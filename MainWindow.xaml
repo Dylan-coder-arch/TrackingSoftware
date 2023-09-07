@@ -5,8 +5,125 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrackingSoftware"
         mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        AllowsTransparency="True"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Border BorderBrush="Black" BorderThickness="3" CornerRadius="12">
+
+        <Border.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="#EF9595" Offset="0.5"/>
+                <GradientStop Color="#EFB495" Offset="1.0"/>
+            </LinearGradientBrush>
+        </Border.Background>
+
+        <Border CornerRadius="10" BorderThickness="2" Margin="5" BorderBrush="#EFD595">
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25"></RowDefinition> <!--Reserved for the buttons to close the application-->
+                    <RowDefinition Height="375"></RowDefinition> 
+                    <RowDefinition></RowDefinition> <!--Reserved for the Bottom Page-->
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0"> <!-- This grid is responsible for the buttons + base header -->
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="0.001"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="LOG IN"
+                               Foreground="#FFE5E5"
+                               FontWeight="SemiBold"
+                               FontSize="14"
+                               Grid.Column="0"
+                               VerticalAlignment="Center"
+                               Margin="5,0,0,0"/>
+
+                    <Button x:Name="btnMinimize"
+                            BorderThickness="0"
+                            Content="-"
+                            Background="Transparent"
+                            Foreground="Black"
+                            FontSize="15"
+                            Grid.Column="1"
+                            Cursor="Hand"
+                            Click="btnMinimize_Click"/>
+                    
+                    <Button x:Name="btnClose"
+                            BorderThickness="0"
+                            Content="X"
+                            Background="Transparent"
+                            Foreground="Black"
+                            FontSize="15"
+                            Cursor="Hand"
+                            Grid.Column="2"
+                            Click="btnClose_Click"/>
+
+                </Grid>
+                
+                <!-- This is where we'll control the rest of the UI -->
+
+                <StackPanel Grid.Row="1">
+
+                    <Image></Image>
+                    <TextBlock Text="Gen Tracker"
+                               Foreground="White"
+                               FontSize="25"
+                               HorizontalAlignment="Center"
+                               Margin="0,40,0,0"/>
+
+                    <TextBlock Text="Username"
+                               Foreground="FloralWhite"
+                               HorizontalAlignment="Center"
+                               FontSize="18"
+                               Margin="0,30,0,0"/>
+
+                    <TextBox x:Name="txtUsername"
+                             Height="20" 
+                             Width="200"
+                             Padding="20,0,0,0"
+                             Margin="0,5,0,0"
+                             VerticalContentAlignment="Center"
+                             BorderThickness="0,0,0,2">
+
+                        <TextBox.Background>
+                            <ImageBrush ImageSource="./Images/user-icon.png" AlignmentX="Left" Stretch="None"/>
+                        </TextBox.Background>
+                        
+                    </TextBox>
+
+                    <TextBlock Text="Password"
+                               Foreground="FloralWhite"
+                               HorizontalAlignment="Center"
+                               FontSize="18"
+                               Margin="0,15,0,0"/>
+
+                    <TextBox x:Name="txtPassword"
+                             Height="20" 
+                             Width="200"
+                             Padding="20,0,0,0"
+                             Margin="0,5,0,0"
+                             VerticalContentAlignment="Center"
+                             BorderThickness="0,0,0,2"
+                             BorderBrush="DarkGray">
+
+                        <TextBox.Background>
+                            <ImageBrush ImageSource="./Images/key-icon.png" AlignmentX="Left" Stretch="None"/>
+                        </TextBox.Background>
+
+                    </TextBox>
+                </StackPanel>
+                
+            </Grid>
+            
+            
+        </Border>
         
-    </Grid>
+    </Border>
 </Window>

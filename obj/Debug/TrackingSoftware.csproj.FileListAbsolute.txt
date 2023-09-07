@@ -1,0 +1,15 @@
+D:\Fold1\Coding Project Repo\GIT REPO\C#\Tracking Software\TrackingSoftware\bin\Debug\TrackingSoftware.exe.config
+D:\Fold1\Coding Project Repo\GIT REPO\C#\Tracking Software\TrackingSoftware\bin\Debug\TrackingSoftware.exe
+D:\Fold1\Coding Project Repo\GIT REPO\C#\Tracking Software\TrackingSoftware\bin\Debug\TrackingSoftware.pdb
+D:\Fold1\Coding Project Repo\GIT REPO\C#\Tracking Software\TrackingSoftware\obj\Debug\TrackingSoftware.csproj.AssemblyReference.cache
+D:\Fold1\Coding Project Repo\GIT REPO\C#\Tracking Software\TrackingSoftware\obj\Debug\MainWindow.g.cs
+D:\Fold1\Coding Project Repo\GIT REPO\C#\Tracking Software\TrackingSoftware\obj\Debug\App.g.cs
+D:\Fold1\Coding Project Repo\GIT REPO\C#\Tracking Software\TrackingSoftware\obj\Debug\TrackingSoftware_MarkupCompile.cache
+D:\Fold1\Coding Project Repo\GIT REPO\C#\Tracking Software\TrackingSoftware\obj\Debug\TrackingSoftware_MarkupCompile.lref
+D:\Fold1\Coding Project Repo\GIT REPO\C#\Tracking Software\TrackingSoftware\obj\Debug\MainWindow.baml
+D:\Fold1\Coding Project Repo\GIT REPO\C#\Tracking Software\TrackingSoftware\obj\Debug\TrackingSoftware.g.resources
+D:\Fold1\Coding Project Repo\GIT REPO\C#\Tracking Software\TrackingSoftware\obj\Debug\TrackingSoftware.Properties.Resources.resources
+D:\Fold1\Coding Project Repo\GIT REPO\C#\Tracking Software\TrackingSoftware\obj\Debug\TrackingSoftware.csproj.GenerateResource.cache
+D:\Fold1\Coding Project Repo\GIT REPO\C#\Tracking Software\TrackingSoftware\obj\Debug\TrackingSoftware.csproj.CoreCompileInputs.cache
+D:\Fold1\Coding Project Repo\GIT REPO\C#\Tracking Software\TrackingSoftware\obj\Debug\TrackingSoftware.exe
+D:\Fold1\Coding Project Repo\GIT REPO\C#\Tracking Software\TrackingSoftware\obj\Debug\TrackingSoftware.pdb
